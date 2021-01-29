@@ -13,13 +13,13 @@ const Login = () => {
   return (
     <div id='Login'>
       <form className='form' onSubmit={ handleSubmit }>
-        <div class='mb-3'>
-          <label for='username' class='form-label'>Username</label>
-          <input type='input' class='form-control' id='username' placeholder='username' value={ name } onChange={ event => setName(event.target.value) } />
+        <div className='mb-3'>
+          <label htmlFor='username' className='form-label'>Username</label>
+          <input type='input' className='form-control' id='username' placeholder='username' value={ name } onChange={ event => setName(event.target.value) } />
         </div>
-        <div class='mb-3'>
-          <label for='password' class='form-label'>Password</label>
-          <input id='password' className='form-control' type='password' value={ password } onChange={ event => setPassword(event.target.value) } />
+        <div className='mb-3'>
+          <label htmlFor='password' className='form-label'>Password</label>
+          <input id='password' className='form-control' type='password' value={ password } onChange={ event => setPassword(event.target.value) } placeholder='password' />
         </div>
         <button className='btn btn-primary' type='submit'>Entrar</button>
       </form>
