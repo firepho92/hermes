@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Login = () => {
+const LoginView = () => {
   const [name, setName] = useState('')
   const [password, setPassword] = useState('')
 
@@ -27,4 +27,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default LoginView

@@ -1,10 +1,10 @@
-import Login from './view/Login'
+import LoginView from './view/LoginView'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Login/>
+    <div className='App'>
+      <LoginView/>
     </div>
   )
 }
