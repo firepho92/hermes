@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grow {
+  transition: all .2s ease-in-out
+}
+
+.grow:hover {
+  transform: scale(1.1)
+}
+
+.main-bg-color {
+  background-color: #22b07d !important;
+}
+
+.second-bg-color {
+  background: #eaf8f2 !important;
+}
+
+.main-button {
+  background-color: #22b07d !important;
+}
+
+.main-button:focus {
+  box-shadow: 0 0 0 0.2rem rgb(34 176 125 / 50%) !important;
+}
+
+.main-color {
+  background: #22b07d;
+}
+
+.second-color {
+  background: #eaf8f2;
+}

@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { AuthenticationContextProvider } from './context/AuthenticationContext'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthenticationContextProvider>
+      <App />
+    </AuthenticationContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
